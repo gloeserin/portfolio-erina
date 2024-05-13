@@ -35,7 +35,7 @@ const WorkContent = () => {
   let items = []
 
   for (let i = 0; i < data.work.length; i++) {
-    let linkComponent = <h1 className='text-4xl max-md:text-xl max-md:max-w-[200px]  group-hover:italic font-bold font-grandSlang'>{data.work[i].title}</h1>;
+    let linkComponent = <h1 className='text-3xl max-md:text-xl max-md:max-w-[200px]  group-hover:italic font-bold font-grandSlang'>{data.work[i].title}</h1>;
     if (data.work[i].link) {
       linkComponent = <Link to={data.work[i].link} rel="noopener noreferrer">{linkComponent}</Link>;
     }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import pdf from '../assets/pdf/cverin.pdf';
+import pdf from '../assets/pdf/cverinew.pdf';
 import { motion as m } from 'framer-motion';
 
 const Home = () => {
@@ -39,7 +39,9 @@ after:bg-black'>
                   </Link>
                 </li>
                 <li className=''>
+                  <a href="mailto:erinfebririan@gmail.com">
                   <p href="#" className="md:text-9xl text-4xl font-grandSlang font-medium italics">CONTACT</p>
+                  </a>
                 </li>
                 <li className=''>
                   <a href={pdf}>
