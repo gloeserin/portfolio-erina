@@ -70,10 +70,10 @@ const Infaq = () => {
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>FRAMEWORK & DATABASE</div>
                                     <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>Laravel, MYSQL</p>
                                 </div>
-                                <div className='w-full sm:w-1/3 md:w-auto max-md:ml-18 ml-20'>
+                                <div className='w-full sm:w-1/3 md:w-auto max-md:ml-18 ml-18'>
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>STATUS</div>
                                     <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>completed, not yet hosted to the public domain</p>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </div>
