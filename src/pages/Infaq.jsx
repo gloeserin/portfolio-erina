@@ -66,7 +66,7 @@ const Infaq = () => {
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>ROLE</div>
                                     <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>Backend Developer & Frontend Developer</p>
                                 </div>
-                                <div className='w-full sm:w-1/3 md:w-auto mb-4 sm:mb-0 gap-6 max-md:ml-5 ml-36  '>
+                                <div className='w-full sm:w-1/3 md:w-auto mb-4 sm:mb-0 gap-6 max-md:ml-5 ml-30  '>
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>FRAMEWORK & DATABASE</div>
                                     <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>Laravel, MYSQL</p>
                                 </div>
