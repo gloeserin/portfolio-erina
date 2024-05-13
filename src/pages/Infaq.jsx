@@ -64,15 +64,15 @@ const Infaq = () => {
                             <div className='grid grid-cols-3 justify-center text-center md:justify-start gap-8'>
                                 <div className='w-full sm:w-1/3 md:w-auto mb-4 sm:mb-0 ml-12 items-center text-center flex flex-col'>
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>ROLE</div>
-                                    <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>Backend Developer & Frontend Developer</p>
+                                    <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center max-md:text-left'>Backend Developer & Frontend Developer</p>
                                 </div>
                                 <div className='w-full sm:w-1/3 md:w-auto mb-4 sm:mb-0  max-md:ml-32 items-center flex flex-col '>
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>FRAMEWORK & DATABASE</div>
-                                    <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>Laravel, MYSQL</p>
+                                    <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center max-md:text-left'>Laravel, MYSQL</p>
                                 </div>
                                 <div className='w-full sm:w-1/3 md:w-auto max-md:ml-18 ml-18 items-center flex flex-col'>
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>STATUS</div>
-                                    <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>completed, not yet hosted to the public domain</p>
+                                    <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white text-center font-montserrat text-base font-normal leading-9  max-md:text-left'>completed, not yet hosted to the public domain</p>
                                 </div> 
                             </div> 
                         </div>
