@@ -31,26 +31,26 @@ after:bg-black'>
             </div>
           </div>
           <div>
-            <div className="text-start max-md:pr-1 pr-20 pb-52">
+            <div className="text-start max-md:pr-1 pr-14 pb-52">
               <ul className="flex flex-col space-y-24 justify-self-start">
                 <li className=''>
                   <Link to="/about">
-                    <p href="" className="md:text-[120px] text-4xl font-grandSlang font-medium italics">ABOUT</p>
+                    <p href="" className="md:text-[115px] text-4xl font-grandSlang font-medium italics">ABOUT</p>
                   </Link>
                 </li>
                 <li className=''>
                   <a href="mailto:erinfebririan@gmail.com">
-                  <p href="#" className="md:text-[120px] text-4xl font-grandSlang font-medium italics">CONTACT</p>
+                  <p href="#" className="md:text-[115px] text-4xl font-grandSlang font-medium italics">CONTACT</p>
                   </a>
                 </li>
                 <li className=''>
                   <a href={pdf}>
-                    <p href="#" className="md:text-[120px] text-4xl font-grandSlang font-medium italics">MY CV</p>
+                    <p href="#" className="md:text-[115px] text-4xl font-grandSlang font-medium italics">MY CV</p>
                   </a>
                 </li>
                 <li className=''>
                   <Link to="/work">
-                    <p href="#" className="md:text-[120px] text-4xl font-grandSlang font-medium italics">WORK</p>
+                    <p href="#" className="md:text-[115px] text-4xl font-grandSlang font-medium italics">WORK</p>
                   </Link>
                 </li>
               </ul>
