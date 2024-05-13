@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  overflow-x: hidden;
+  background-color: #ece7e1;
+}
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.GrandSlang{
+  font-family: 'GrandSlang-Roman', cursive;
+}
+
+@font-face {
+  font-family: "GrandSlang";
+  src: url("/fonts/GrandSlang-Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+.hover-italic:hover {
+  font-style: italic;
+}
+
+.italics {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.italics:hover {
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+}
+
+.slide-container {
+  position: relative;
+}
+
+.slide-container .prev, .slide-container .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slide-container .prev {
+  left: 0;
+}
+
+.slide-container .next {
+  right: 0;
+}
+
