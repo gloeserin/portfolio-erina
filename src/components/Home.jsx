@@ -31,7 +31,7 @@ after:bg-black'>
             </div>
           </div>
           <div>
-            <div className="text-start max-md:pr-1 pr-14 pb-52">
+            <div className="text-start max-md:pr-1 pr-12 pb-52">
               <ul className="flex flex-col space-y-24 justify-self-start">
                 <li className=''>
                   <Link to="/about">
