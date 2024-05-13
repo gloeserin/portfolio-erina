@@ -59,10 +59,10 @@ const Infaq = () => {
                 </div>
                 <div className='max-w-full px-4 md:px-12 pt-8 md:pt-32'>
                     <div className='work-container pb-16 md:pb-0'>
-                        <p className='max-w-full md:max-w-3/4 mx-auto font-grandSlang text-white text-xl md:text-5xl font-light leading-tight text-center md:text-left'>This project is an automatic transaction application for payment of infaq bills used by all administration and students of SMK Wikrama Bogor.</p>
-                        <div className='work-details max-w-full md:max-w-3/4 mx-auto pt-8 md:pt-40'>
+                        <p className='max-w-full md:max-w-3/4 mx-auto font-grandSlang text-white text-xl md:text-5xl font-light leading-tight text-center md:text-center'>This project is an automatic transaction application for payment of infaq bills used by all administration and students of SMK Wikrama Bogor.</p>
+                        <div className='work-details max-w-full md:max-w-3/4 mx-auto pt-8 md:pt-14'>
                             <div className='flex flex-wrap justify-center md:justify-start'>
-                                <div className='w-full sm:w-1/3 md:w-auto mb-4 sm:mb-0'>
+                                <div className='w-full sm:w-1/3 md:w-auto mb-4 sm:mb-0 ml-12'>
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>ROLE</div>
                                     <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>Backend Developer & Frontend Developer</p>
                                 </div>
@@ -70,7 +70,7 @@ const Infaq = () => {
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>FRAMEWORK & DATABASE</div>
                                     <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>Laravel, MYSQL</p>
                                 </div>
-                                <div className='w-full sm:w-1/3 md:w-auto max-md:ml-5 ml-64'>
+                                <div className='w-full sm:w-1/3 md:w-auto max-md:ml-5 ml-28'>
                                     <div className='text-white pt-6 pb-2 font-montserrat text-xs font-semibold text-center md:text-left'>STATUS</div>
                                     <p className='max-w-full ml-auto mr-auto sm:ml-0 sm:mr-0 text-white font-montserrat text-base font-normal leading-9 text-center md:text-left'>completed, not yet hosted to the public domain</p>
                                 </div>
@@ -79,19 +79,19 @@ const Infaq = () => {
                     </div>
                 </div>
                 <div className='items-center mt-8'>
-                        <div className='max-w-full md:max-w-[1400px] mx-auto py-16 pl-4 px-4 relative group'>
-                            <div style={{
-                                backgroundImage: `url(${slides[currentIndex].url})`,
-                                backgroundSize: 'cover' // Menambahkan properti backgroundSize
-                            }} className='w-full md:w-full h-96 md:h-[780px] rounded-2xl duration-500 items-center'></div>
-                            <div className='hidden group-hover:block absolute top-1/2 transform -translate-y-1/2 left-5 text-2xl rounded-full p-2 bg-bg-cream/20 text-black/80 cursor-pointer'>
-                                <FaArrowLeft onClick={prevSlide} size={30} />
-                            </div>
-                            <div className='hidden group-hover:block absolute top-1/2 transform -translate-y-1/2 right-5 text-2xl rounded-full p-2 bg-bg-cream/20 text-black/80 cursor-pointer'>
-                                <FaArrowRight onClick={nextSlide} size={30} />
-                            </div>
+                    <div className='max-w-full md:max-w-[800px] md:max-h-[600px] mx-auto py-16 pl-4 px-4 relative group'>
+                        <div style={{
+                            backgroundImage: `url(${slides[currentIndex].url})`,
+                            backgroundSize: 'cover' // Menambahkan properti backgroundSize
+                        }} className='w-full md:w-full h-72 md:h-[500px] rounded-2xl duration-500 items-center'></div>
+                        <div className='hidden group-hover:block absolute top-1/2 transform -translate-y-1/2 left-5 text-2xl rounded-full p-2 bg-bg-cream/20 text-black/80 cursor-pointer'>
+                            <FaArrowLeft onClick={prevSlide} size={30} />
+                        </div>
+                        <div className='hidden group-hover:block absolute top-1/2 transform -translate-y-1/2 right-5 text-2xl rounded-full p-2 bg-bg-cream/20 text-black/80 cursor-pointer'>
+                            <FaArrowRight onClick={nextSlide} size={30} />
                         </div>
                     </div>
+                </div>
             </m.div>
         </>
     )

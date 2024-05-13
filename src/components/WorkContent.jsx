@@ -26,7 +26,7 @@ const WorkContent = () => {
       },
       {
         title: 'Masjid Al-Ikram Wikrama',
-        description: 'Fullstack Developer',
+        description: 'Frontend Developer',
         link: 'https://alikramwikrama.id/'
       },
     ]
@@ -57,7 +57,7 @@ const WorkContent = () => {
       exit={{ opacity: 1 }}
       className='bg-bg-black min-h-screen'
     >
-      <div className='text-white md:pl-20 grid max-md:grid-cols-1 grid-cols-12 pb-20 pt-48 pl-20'>
+      <div className='text-white md:pl-20 grid max-md:grid-cols-1 grid-cols-12 pb-20 pt-40 pl-20'>
         <div className='col-span-4 '>
           <h1 className='text-5xl font-bold font-grandSlang'>Work</h1>
           <p>Web Developer & Mobile Developer</p>

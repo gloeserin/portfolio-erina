@@ -61,7 +61,7 @@ const AboutContent = () => {
             <div className="grid grid-cols-12 pl-4 md:pl-20 pt-4 md:pt-16 pb-12">
                 <div className=" max-md:pl-10 col-span-12 md:col-span-9 items-center md:pl-16 mx-4 md:mx-16 pt-20">
                     <h1 className='font-medium font-grandSlang text-4xl md:text-[150px] '>About</h1>
-                    <p className='pt-16 font-normal font-grandSlang text-4xl md:text-5xl'>I'm Erina. A web developer, problem solving,
+                    <p className='pt-16 font-normal font-grandSlang text-3xl md:text-5xl'>I'm Erina. A web developer, problem solving,
                         <br /> and enthusiastic design
                     </p>
                     <br />
@@ -130,11 +130,11 @@ const AboutContent = () => {
                     </div>
                     <div className='items-center mt-8'>
                         <h1 className='font-grandSlang font-medium text-3xl'>CERTIFICATE</h1>
-                        <div className='max-w-full md:max-w-[1400px] mx-auto py-16 pl-4 px-4 relative group'>
+                        <div className='max-w-full md:max-w-[800px] md:max-h-[600px] mx-auto py-16 pl-4 px-4 relative group'>
                             <div style={{
                                 backgroundImage: `url(${slides[currentIndex].url})`,
                                 backgroundSize: 'cover' // Menambahkan properti backgroundSize
-                            }} className='w-full md:w-full h-96 md:h-[780px] rounded-2xl duration-500 items-center'></div>
+                            }} className='w-full md:w-full h-72 md:h-[500px] rounded-2xl duration-500 items-center'></div>
                             <div className='hidden group-hover:block absolute top-1/2 transform -translate-y-1/2 left-5 text-2xl rounded-full p-2 bg-bg-cream/20 text-black/80 cursor-pointer'>
                                 <FaArrowLeft onClick={prevSlide} size={30} />
                             </div>
@@ -143,6 +143,7 @@ const AboutContent = () => {
                             </div>
                         </div>
                     </div>
+
 
 
                 </div>
